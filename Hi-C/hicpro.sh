@@ -80,3 +80,18 @@ cd /data2/yudonglin
 conda activate HiC-Pro_v3.1.0
 ulimit -n 655350
 nohup /data/yudonglin/software/hicpro/HiC-Pro/HiC-Pro_3.1.1/bin/HiC-Pro -c /data/yudonglin/software/hicpro/HiC-Pro/CONFIG-HICPRO.txt -o /data2/yudonglin/hic_analysis_new -i /data3/yudonglin/hic/HiC/merge/clean &
+
+
+#重新修改bin
+cd /data4/yudonglin
+conda activate HiC-Pro_v3.1.0
+ulimit -n 655350
+nohup /data/yudonglin/software/hicpro/HiC-Pro/HiC-Pro_3.1.1/bin/HiC-Pro -c /data/yudonglin/software/hicpro/HiC-Pro/CONFIG-HICPRO.txt -o /data4/yudonglin/hic_analysis_new -i /data3/yudonglin/hic/HiC/merge/clean &
+
+
+
+
+
+
+
+
